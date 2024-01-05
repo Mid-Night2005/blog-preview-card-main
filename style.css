@@ -1,0 +1,89 @@
+@import url(https://fonts.google.com/specimen/Figtree);
+.fontWeight{
+    font-weight: 600;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+
+}
+.main--container{
+    margin-top: 30%;
+    width: 18rem;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 7px 7px black;    
+}
+.img--bx img{
+    /* margin-top: 10px; */
+    width: 100%;
+    margin-top:17px ;
+    border-radius: 10px;
+}
+.img--bx{
+
+    width: 87%;
+
+}
+.container--info{
+    padding: 20px;
+    align-items: start;
+    /* font-weight: 600; */
+}
+.container--button {
+    margin-top: px;
+    width: fit-content;
+    padding: 7px;
+    background-color: hsl(47, 88%, 63%);
+    margin-block: 10px;
+    font-size: 12px;
+}
+.container--publishInfo{
+    font-size: 12px;
+    margin-block: 10px;
+    color: hsl(0, 0%, 5%);
+    padding-block: 5px;
+}
+.container--heading{
+    color: hsl(0, 0%, 7%);
+    font-size: 8.5px;
+}
+.container--headingInfo{
+    margin-block: 10px;
+    font-size: 13px;
+    color: hsl(0, 0%, 50%);
+    line-height: 1.5;
+}
+.container--user img{
+    width: 25px;
+}
+.container--user{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 800;
+}
+.container--button{
+    margin-top: -5px;
+    border-radius: 5px;
+}
+@media(min-width : 1440px ){
+    .main--container{
+        width: 20rem;
+    }
+
+}
